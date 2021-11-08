@@ -4,7 +4,7 @@ const ErrorExample = () => {
   const [title, setTitle] = useState("random title");
 
   const handleClick = () => {
-    if (title == "random title") {
+    if (title === "random title") {
       setTitle("hello people");
     } else {
       setTitle("random title");
